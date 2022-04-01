@@ -2,6 +2,33 @@
     text-align: center;
   }
 
-.search {
-    margin-bottom: 2rem;
+  .search {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+
+}
+
+.btnLogout {
+  margin-bottom: 1rem;
+  float: left;
+}
+
+.btnSelected{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btnSearch {
+  margin-top: 1rem;
+}
+
+.card {
+  text-align: center;
+}
+
+.container-card, .header, .search{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
 }
