@@ -3,9 +3,7 @@ import './App.css';
 import { useEffect, useState } from "react";
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card'
-import Form from 'react-bootstrap/Form'
+import {Form, Card, Button} from 'react-bootstrap'
 
 function App() {
     const CLIENT_ID = "1f31061be48a442d8d9de8ecfaaa4f13"
